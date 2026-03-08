@@ -26,7 +26,9 @@ tiga_tertinggi = nilai_ujian[:3]
 print("Tiga nilai tertinggi (Penerima Beasiswa):", tiga_tertinggi)
 
 lulus = []
-for n in nilai_ujian:
-    if n >= 60:
+for i in nilai_ujian:
+    if i >= 60:
         lulus.append(n)
+
+print("Daftar nilai yang lulus:", lulus)
 
